@@ -103,14 +103,14 @@ console.log('main.js');
 
 
 
-let x=0;
-let y=0;
-for(let i=0;i<=10;i++){
-y+=x;
-console.log(x);
-x++
-}
-console.log(y);
+// let x=0;
+// let y=0;
+// for(let i=0;i<=10;i++){
+// y+=x;
+// console.log(x);
+// x++
+// }
+// console.log(y);
 
 
 // [09:44] Marius Kuzminskas
@@ -125,5 +125,14 @@ console.log(y);
 // // 7.2 kiek kartu kompiuteris mes kauliukus kol daugiau nei 6?
 //  like 2
 
+// sukuriam cikla kuris tesiasi 20kartu
+// nespausdinti skaiciau 17
+
+for (let i=0;i<=20;i++){
+if (i===17) {
+    continue;
+}
+console.log(i);
+}
 
 
