@@ -91,22 +91,27 @@ console.log('main.js');
 
 // // 5. atspausdinti nuo 47 iki 68 visus lyginius skaicius
 
-for(let i=47;i<=68;i++){
-if (i%2===0) {
-    console.log(i)
-}
+// for(let i=47;i<=68;i++){
+// if (i%2===0) {
+//     console.log(i)
+// }
 
-}
+// }
 
 
-// [09:38] Marius Kuzminskas
-// https://www.w3schools.com/js/js_assignment.asp
-// JavaScript Assignment
-// W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more.
-
-// [09:39] Marius Kuzminskas
 // // 6. sudeti visus skaicius nuo 0 iki 10, atspusdinti rezultata
-//  like 3
+
+
+
+let x=0;
+let y=0;
+for(let i=0;i<=10;i++){
+y+=x;
+console.log(x);
+x++
+}
+console.log(y);
+
 
 // [09:44] Marius Kuzminskas
 // // 7. su while loop. parasyti cikla kuris meta kauliukus ir galimos reiksmes yra nuo 2 iki 12.
