@@ -113,9 +113,34 @@ console.log('main.js');
 // console.log(y);
 
 
-// [09:44] Marius Kuzminskas
 // // 7. su while loop. parasyti cikla kuris meta kauliukus ir galimos reiksmes yra nuo 2 iki 12.
-//  like 2
+
+let kl1;
+let kl2;
+let sum=0;
+let operaciju=0;
+while(sum  < 12){
+
+    // random kauliukas 1
+    kl1=+(Math.random()*0.5*10).toFixed(0)+1;
+    console.log(kl1);
+    // random kauliukas 2
+    kl2=+(Math.random()*0.5*10).toFixed(0)+1;
+    console.log(kl2);
+    // sumu skaiciuokle
+    sum=kl1+kl2
+    console.log(sum);
+    
+    // kiek operaciju
+    operaciju++
+
+}
+
+console.log(operaciju);
+
+
+
+
 
 // [09:44] Marius Kuzminskas
 // // 7.1 kiek kartu kompiuteris mes kauliukus kol ismes 12?
@@ -128,11 +153,11 @@ console.log('main.js');
 // sukuriam cikla kuris tesiasi 20kartu
 // nespausdinti skaiciau 17
 
-for (let i=0;i<=20;i++){
-if (i===17) {
-    continue;
-}
-console.log(i);
-}
+// for (let i=0;i<=20;i++){
+// if (i===17) {
+//     continue;
+// }
+// console.log(i);
+// }
 
 
