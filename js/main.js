@@ -48,6 +48,17 @@ console.log('main.js');
 
 
 // // 3. atspausdinti skaicius nuo 50 iki 24
-for (let i3=50; i3>23 ;  i3--) {
-    console.log(i3);
+// for (let i3=50; i3>23 ;  i3--) {
+//     console.log(i3);
+// }
+
+
+// // 4. atspausdinti 15 random verciu nuo 1 iki 10
+for (let a = 0; a < 15; a++) {
+console.log(   (Math.random()*10).toFixed(0)  );
 }
+
+// // 4.1 atspausdinti verciu vidurki
+
+
+
