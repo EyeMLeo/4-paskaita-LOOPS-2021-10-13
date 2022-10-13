@@ -115,28 +115,28 @@ console.log('main.js');
 
 // // 7. su while loop. parasyti cikla kuris meta kauliukus ir galimos reiksmes yra nuo 2 iki 12.
 
-let kl1;
-let kl2;
-let sum=0;
-let operaciju=0;
-while(sum  < 12){
+// let kl1;
+// let kl2;
+// let sum=0;
+// let operaciju=0;
+// while(sum  < 6){
 
-    // random kauliukas 1
-    kl1=+(Math.random()*0.5*10).toFixed(0)+1;
-    console.log(kl1);
-    // random kauliukas 2
-    kl2=+(Math.random()*0.5*10).toFixed(0)+1;
-    console.log(kl2);
-    // sumu skaiciuokle
-    sum=kl1+kl2
-    console.log(sum);
+//     // random kauliukas 1
+//     kl1=+(Math.random()*0.5*10).toFixed(0)+1;
+//     // console.log(kl1);
+//     // random kauliukas 2
+//     kl2=+(Math.random()*0.5*10).toFixed(0)+1;
+//     // console.log(kl2);
+//     // sumu skaiciuokle
+//     sum=kl1+kl2
+//     console.log(sum);
     
-    // kiek operaciju
-    operaciju++
+//     // kiek operaciju
+//     operaciju++
 
-}
+// }
 
-console.log(operaciju);
+// console.log(operaciju);
 
 
 
@@ -161,3 +161,14 @@ console.log(operaciju);
 // }
 
 
+for(let i=0;i<30;i++){
+if (i===17||i===5||i===15) {
+    continue;
+}
+
+console.log(i);
+
+
+
+
+}
