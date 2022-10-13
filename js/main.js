@@ -88,9 +88,16 @@ console.log('main.js');
 
 
 
-// [09:35] Marius Kuzminskas
+
 // // 5. atspausdinti nuo 47 iki 68 visus lyginius skaicius
-//  like 3
+
+for(let i=47;i<=68;i++){
+if (i%2===0) {
+    console.log(i)
+}
+
+}
+
 
 // [09:38] Marius Kuzminskas
 // https://www.w3schools.com/js/js_assignment.asp
