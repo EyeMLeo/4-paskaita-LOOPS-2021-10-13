@@ -202,15 +202,92 @@ console.log('main.js');
 // 4
 // 5
 // 6
+// const x=document.getElementById('list').innerHTM;
+let phrase="<ul>"
+for (let i=1;i<=6;i++){
+let x=`<li>${i}</li>`;
+phrase+=x
+
+}
+phrase+="</ul>"
+console.log(phrase);
 
 
-
-
+document.getElementById("list").innerHTML = phrase;
 
 
 // Surasyti i kintamaji myString visus skaicius nuo -10 iki 35 atskirtus kableliu ir tarpu pvz, -10, -9, -8, ....
+// let x="";
+// let y="";
+// for(let i=-10; i<=35;i++){
+//     if(i<35){
+// y=i+", ";        
+//         }else{
+//             y=i  
+//         }
+// x+=y;
+// }
+// console.log(x);
+
+
 
 // Sudeti skaicius nuo 10 iki 20.
+// let x=0;
+// let ciklas =0;
+
+// for(let i=10;i<=20;i++){
+// ciklas++;
+// console.log(`ciklas ${ciklas} prie ${x} pridedu ${i} ir gaunu ${x+i}`);
+
+// x+=i;
+
+
+// }
+// console.log(x);
+
 
 // sudedant atspausdinti kievieno zingsnio informacija pvz "Ciklo numeris 1, prie 0 pridedu 10 ir gaunu 10" pvz "Ciklo numeris 2, prie 10 pridedu 11 ir gaunu 21" pvz "Ciklo numeris 3, prie 21 pridedu 12 ir gaunu 33" ....
 // atspausdinti galutini rezultata
+
+
+
+
+
+
+
+
+
+
+
+
+
+// sukuriam kintamji aukstis = 5. Panaudojus kintamji aukstis nupiesti eglute su tiek liniju kiek yra aukstis. (naudojant repeat() metoda ir be repeat metodo).
+
+//          +
+//         +++
+//        +++++
+//       +++++++
+//      +++++++++
+
+
+// let levels = 3;
+
+// for(levels;levels>0;levels--){
+   
+// }
+
+
+
+
+// atspausdinti consoleje 3 random reiksmes su 2 skaiciais po kablelio li taguose
+
+// 2.48
+// 5.82
+// 9.40
+// atspausdinti konsoleje skaicius nuo 12 iki 24 padaugintus is 3
+
+// atspausdinti konsoleje skaicius nuo 3 iki 25, jei skaicius lyginis prirasyti prie jo zodeli 'lyginis' pvz 3 4 lyginis 5 6 lyginis .... 14.1 prideti dar prie skaiciu kurie yra 3 kartotiniai 'triju kartotinis' pvz 3 triju kartotinis 4 lyginis 5 triju kartotinis 6 lyginis ....
+
+
+
+
