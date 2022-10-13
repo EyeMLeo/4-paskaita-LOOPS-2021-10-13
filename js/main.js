@@ -161,14 +161,56 @@ console.log('main.js');
 // }
 
 
-for(let i=0;i<30;i++){
-if (i===17||i===5||i===15) {
-    continue;
-}
+// for(let i=0;i<30;i++){
+// if (i===17||i===5||i===15) {
+//     continue;
+// }
 
-console.log(i);
+// console.log(i);
+
+// }
 
 
 
 
-}
+
+
+
+
+
+
+
+
+
+
+// Suskaiciuoti kiek skaiciau 4 kartotiniu nuo 0 iki 160
+// let x=0;
+// for(let i=0;i<=160;i++){
+// if (i%4===0 && i!=0) {
+//     x++;
+// }
+
+// }
+// console.log(x);
+// console.log(0%4);
+
+
+
+
+// sugeneruoti stringa kuris turetu tokia struktura:
+
+// 4
+// 5
+// 6
+
+
+
+
+
+
+// Surasyti i kintamaji myString visus skaicius nuo -10 iki 35 atskirtus kableliu ir tarpu pvz, -10, -9, -8, ....
+
+// Sudeti skaicius nuo 10 iki 20.
+
+// sudedant atspausdinti kievieno zingsnio informacija pvz "Ciklo numeris 1, prie 0 pridedu 10 ir gaunu 10" pvz "Ciklo numeris 2, prie 10 pridedu 11 ir gaunu 21" pvz "Ciklo numeris 3, prie 21 pridedu 12 ir gaunu 33" ....
+// atspausdinti galutini rezultata
