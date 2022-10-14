@@ -203,17 +203,17 @@ console.log('main.js');
 // 5
 // 6
 // const x=document.getElementById('list').innerHTM;
-let phrase="<ul>"
-for (let i=1;i<=6;i++){
-let x=`<li>${i}</li>`;
-phrase+=x
+// let phrase="<ul>"
+// for (let i=1;i<=6;i++){
+// let x=`<li>${i}</li>`;
+// phrase+=x
 
-}
-phrase+="</ul>"
-console.log(phrase);
+// }
+// phrase+="</ul>"
+// console.log(phrase);
 
 
-document.getElementById("list").innerHTML = phrase;
+// document.getElementById("list").innerHTML = phrase;
 
 
 // Surasyti i kintamaji myString visus skaicius nuo -10 iki 35 atskirtus kableliu ir tarpu pvz, -10, -9, -8, ....
@@ -270,24 +270,79 @@ document.getElementById("list").innerHTML = phrase;
 //      +++++++++
 
 
-// let levels = 3;
-
+// let levels = 30;
+// let space = " ";
+// let plus = "+"
+// let branch=1;
 // for(levels;levels>0;levels--){
-   
+
+//    console.log(`${space.repeat(levels)}${plus.repeat(branch)}`);
+//    branch+=2
+// }
+
+// OR be repeat funkcijos
+
+let levels = 5;
+let space = " ";
+let plus = "+"
+let branch=1;
+
+
+
+
+
+for(levels;levels>0;levels--){
+let levelsX= levels;
+let levelsY=levels;
+
+    // for spaces
+    for(levelsX;levelsX>0;levelsX--){
+        space+=space;
+    }
+
+    // for pluses
+    for(levelsY;levelsY>0;levelsY--){
+        space+=space;
+    }
+
+
+plus+="+";
+
+console.log(`${plus}.`)
+//    console.log(`${space.repeat(levels)}${plus.repeat(branch)}`);
+//    branch+=2
+}
+
+
+// atspausdinti consoleje 3 random reiksmes su 2 skaiciais po kablelio li taguose
+
+
+// for(let i=1;i<=3;i++){
+//     let x=(Math.random()*10).toFixed(2)
+// console.log(`<li>${x}</li>`);
+// }
+// // 2.48
+// // 5.82
+// // 9.40
+
+
+
+// // atspausdinti konsoleje skaicius nuo 12 iki 24 padaugintus is 3
+// for(let i=12;i<=24;i++){
+// console.log(i*3);
+
+
+
 // }
 
 
 
 
-// atspausdinti consoleje 3 random reiksmes su 2 skaiciais po kablelio li taguose
+// // atspausdinti konsoleje skaicius nuo 3 iki 25, jei skaicius lyginis prirasyti prie jo zodeli 'lyginis' pvz 3 4 lyginis 5 6 lyginis .... 14.1 prideti dar prie skaiciu kurie yra 3 kartotiniai 'triju kartotinis' pvz 3 triju kartotinis 4 lyginis 5 triju kartotinis 6 lyginis ....
 
-// 2.48
-// 5.82
-// 9.40
-// atspausdinti konsoleje skaicius nuo 12 iki 24 padaugintus is 3
+// for(let i=3;i<=25;i++){
+//    i%2===0? console.log(`${i} yra lyginis`): console.log(`${i} yra nelyginis`)
 
-// atspausdinti konsoleje skaicius nuo 3 iki 25, jei skaicius lyginis prirasyti prie jo zodeli 'lyginis' pvz 3 4 lyginis 5 6 lyginis .... 14.1 prideti dar prie skaiciu kurie yra 3 kartotiniai 'triju kartotinis' pvz 3 triju kartotinis 4 lyginis 5 triju kartotinis 6 lyginis ....
-
-
+// }
 
 
